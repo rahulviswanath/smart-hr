@@ -1,0 +1,191 @@
+<div class="page-wrapper" id="dashboard_wrapper">
+  <div class="content container-fluid">
+      <div class="row">
+          <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+            <div class="card dash-widget">
+              <div class="card-body">
+                <span class="dash-widget-icon"><i class="fa fa-user"></i></span>
+                <div class="dash-widget-info">
+                  <h3>{{dash.employees}}</h3>
+                  <span>Employees</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+            <div class="card dash-widget">
+              <div class="card-body">
+                <span class="dash-widget-icon"><i class="fa fa-usd"></i></span>
+                <div class="dash-widget-info">
+                    <h3>{{dash.payroll}}</h3>
+                    <span>Payroll</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+            <div class="card dash-widget">
+              <div class="card-body">
+                <span class="dash-widget-icon"><i class="fa fa-calendar-check-o"></i></span>
+                <div class="dash-widget-info">
+                    <h3>{{dash.present}}</h3>
+                    <span>Present</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+            <div class="card dash-widget">
+              <div class="card-body">
+                <span class="dash-widget-icon"><i class="fa fa-plane"></i></span>
+                <div class="dash-widget-info">
+                    <h3>{{dash.leave}}</h3>
+                    <span>Leave</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-5 text-center">
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="card-title">Head Count By Departments</h3>
+                  <div id="department-wise-count"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 text-center">
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="card-title">Gender Ratio</h3>
+                  <div id="sex-ratio"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6 col-xl-3 d-flex">
+                <div class="card flex-fill">
+                  <div class="card-body">
+                    <h4 class="card-title">Leave Request <span class="badge bg-inverse-danger ml-2">5</span></h4>
+                    <div class="leave-info-box">
+                      <div class="media align-items-center">
+                        <a href="profile.html" class="avatar"><img alt="" src="assets/img/user.jpg"></a>
+                        <div class="media-body">
+                          <div class="text-sm my-0">Martin Lewis</div>
+                        </div>
+                      </div>
+                      <div class="row align-items-center mt-3">
+                        <div class="col-6">
+                          <span class="text-sm text-muted">From</span>
+                          <h6 class="mb-0">4 Sep 2019</h6>
+                        </div>
+                        <div class="col-6">
+                            <span class="text-sm text-muted">To</span>
+                            <h6 class="mb-0">4 Sep 2019</h6>
+                          </div>
+                      </div>
+                    </div>
+                    
+                    <div class="load-more text-center">
+                      <a class="text-dark" href="javascript:void(0);">Load More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    <div class="row">
+        
+        <div class="col-md-12 col-lg-6 col-xl-4 d-flex">
+            <div class="card flex-fill">
+              <div class="card-body">
+                <h4 class="card-title">New Joiners <span class="badge bg-inverse-danger ml-2">5</span></h4>
+                <div class="leave-info-box">
+                  <div class="media align-items-center">
+                    <a href="profile.html" class="avatar"><img alt="" src="assets/img/user.jpg"></a>
+                    <div class="media-body">
+                      <div class="text-sm my-0">Martin Lewis</div>
+                    </div>
+                  </div>
+                  <div class="row align-items-center mt-3">
+                    <div class="col-6">
+                      <h6 class="mb-0">4 Sep 2019</h6>
+                      <span class="text-sm text-muted">Joining Date</span>
+                    </div>
+                    <div class="col-6 text-right">
+                      <span class="badge bg-inverse-danger">Pending</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="load-more text-center">
+                  <a class="text-dark" href="javascript:void(0);">Load More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div class="col-md-12 col-lg-6 col-xl-4 d-flex">
+          <div class="card flex-fill">
+            <div class="card-body">
+              <h4 class="card-title">Upcoming Visa Expirey <span class="badge bg-inverse-danger ml-2">5</span></h4>
+              <div class="leave-info-box">
+                <div class="media align-items-center">
+                  <a href="profile.html" class="avatar"><img alt="" src="assets/img/user.jpg"></a>
+                  <div class="media-body">
+                    <div class="text-sm my-0">Martin Lewis</div>
+                  </div>
+                </div>
+                <div class="row align-items-center mt-3">
+                  <div class="col-6">
+                    <h6 class="mb-0">4 Sep 2019</h6>
+                    <span class="text-sm text-muted">Leave Date</span>
+                  </div>
+                  <div class="col-6 text-right">
+                    <span class="badge bg-inverse-danger">Pending</span>
+                  </div>
+                </div>
+              </div>
+              <div class="leave-info-box">
+                <div class="media align-items-center">
+                  <a href="profile.html" class="avatar"><img alt="" src="assets/img/user.jpg"></a>
+                  <div class="media-body">
+                    <div class="text-sm my-0">Martin Lewis</div>
+                  </div>
+                </div>
+                <div class="row align-items-center mt-3">
+                  <div class="col-6">
+                    <h6 class="mb-0">4 Sep 2019</h6>
+                    <span class="text-sm text-muted">Leave Date</span>
+                  </div>
+                  <div class="col-6 text-right">
+                    <span class="badge bg-inverse-success">Approved</span>
+                  </div>
+                </div>
+              </div>
+              <div class="load-more text-center">
+                <a class="text-dark" href="javascript:void(0);">Load More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 col-lg-6 col-xl-4 d-flex">
+            <div class="card flex-fill">
+              <div class="card-body">
+                <h4 class="card-title">Upcoming Birthdays</h4>
+                
+                <div>
+                  <p><i class="fa fa-dot-circle-o text-purple mr-2"></i>Martin Lewis <span class="float-right">4 Sep 2019</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+
+</div>
